@@ -11,26 +11,28 @@
    <div class="box">
     <div class="column shadow-sm rounded-5" id="box" style="height: 20rem; width: 20rem; background-color: white; margin-bottom: 4rem;">
     </div>
-    <h1 class="mb-3" onclick="myText()"id="text">WHITE COLOR</h1>
+    <h1 class="mb-3" onclick="myText()"id="text">COLOR NO DETECTED</h1>
     <P><b>CLICK THE BUTTON BELOW TO CHANGE THE COLOR OF THE BOX ABOVE!</b></P>
    </div>
    <div class="second-box">
     <button onclick="myBoxPink()" class="first-button" style="background-color: salmon; height: 3rem; width: 6rem;" id="button">Pink</button>
-    <button onclick="myBoxRed()" class="first-button" style="background-color: salmon; height: 3rem; width: 6rem;" id="button">Merah</button>
-    <button onclick="myBoxWhite()" style="background-color: salmon; height: 3rem; width: 6rem;" id="button">Putih</button>
+    <button onclick="myBoxRed()" class="first-button" style="background-color: salmon; height: 3rem; width: 6rem;" id="button">Red</button>
+    <button onclick="myBoxGreen()" style="background-color: salmon; height: 3rem; width: 6rem;" id="button">Green</button>
+    <button onclick="myBoxWhite()" style="background-color: salmon; height: 3rem; width: 6rem;" id="button">White</button>
    </div>
    <style>
     .box{
       display:flex;
       flex-direction: column;
       align-items: center;
-      margin-top: 5rem;
+      margin-top: 3rem;
     }
     .second-box {
       display: flex;
       justify-content: center;
       align-items: center;
       margin-top: 1rem;
+      margin-bottom: 2rem;
       gap:10px
     };
    </style>

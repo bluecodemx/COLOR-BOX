@@ -7,8 +7,12 @@ function myBoxRed () {
     document.getElementById('box').style.backgroundColor = ('#ff0000');
     document.getElementById('text').innerHTML='RED COLOR'
 }
+function myBoxGreen(){
+    document.getElementById('box').style.backgroundColor = ('green');
+    document.getElementById('text').innerHTML='GREEN COLOR'
+}
 function myBoxWhite(){
-    document.getElementById('box').style.backgroundColor = ('white');
+    document.getElementById('box').style.backgroundColor = ('white')
     document.getElementById('text').innerHTML='WHITE COLOR'
 }
 
